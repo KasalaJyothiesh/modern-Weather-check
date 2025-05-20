@@ -26,8 +26,7 @@ A sleek and modern weather web application that fetches real-time weather data u
 
 ## 🌐 Live Demo
 
-> 🔗 [View Live Site](https://your-live-site-url.com)
-
+> 🔗 [View Live Site](https://kasalajyothiesh.github.io/modern-Weather-check/)
 ## 🔧 How to Use
 
 1. Clone this repository:
