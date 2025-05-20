@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="content">
+        <div class="app">
+            <div class="weather-card">
+                <h1>Weather App 🌦️</h1>
+                <div class="input-group">
+                    <input type="text" id="city" placeholder="Enter city..." />
+                    <button onclick="getWeather()">🔍</button>
+                </div>
+                <div id="weather-result" class="result-box">
+                    <!-- Weather data shows here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer-text">Made by <strong>KJServices.com</strong></p>
+        <p class="footer-text">Connect with us:</p>
+        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID" target="_blank" rel="noopener" class="social-link">
+            <img src="linkedin_img.png" alt="LinkedIn" />
+        </a>
+        <a href="https://www.instagram.com/jyothiesh_07" target="_blank" rel="noopener" class="social-link">
+            <img src="insta_img.png" alt="Instagram" />
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
