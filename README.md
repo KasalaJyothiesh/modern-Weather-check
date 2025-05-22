@@ -31,5 +31,5 @@ A sleek and modern weather web application that fetches real-time weather data u
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/weather-app.git
+   git clone https://github.com/kasalajyothiesh/weather-app.git
    cd weather-app
