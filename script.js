@@ -10,7 +10,6 @@ async function getWeather() {
 
   resultDiv.innerHTML = `<p>⏳ Loading weather data...</p>`;
 
-  // Try proxy to bypass CORS (for local/online editor use)
   const proxyUrl = "https://api.allorigins.win/get?url=";
   const targetUrl = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${encodeURIComponent(
     city
@@ -19,7 +18,7 @@ async function getWeather() {
   try {
     const response = await fetch(`${proxyUrl}${encodeURIComponent(targetUrl)}`);
     const proxyData = await response.json();
-    const data = JSON.parse(proxyData.contents); // AllOrigins wraps the content
+    const data = JSON.parse(proxyData.contents); 
 
     if (data.error) {
       resultDiv.innerHTML = `<p>❗ ${data.error.info}</p>`;
@@ -39,3 +38,4 @@ async function getWeather() {
     resultDiv.innerHTML = `<p>❗ Unable to fetch weather. Check your connection or try again later.</p>`;
   }
 }
+
